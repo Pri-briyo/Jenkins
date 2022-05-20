@@ -45,7 +45,7 @@ public class AddCartAutomation {
 		wb.click();
 		wb.sendKeys(Keys.ARROW_DOWN);
 		wb.sendKeys(Keys.ENTER);
-		
+		System.out.println("Output");
 		System.out.println("Product Name:"+driver.findElement(By.xpath("//div[@class='product-title']")).getText());
 		System.out.println("Delivery Date:"+driver.findElement(By.xpath("//div[@class='delivery-date']")).getText());
 		System.out.println("Quantity:"+driver.findElement(By.xpath("//option[@selected='selected']")).getText());
