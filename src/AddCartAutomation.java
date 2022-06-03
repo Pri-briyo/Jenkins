@@ -21,6 +21,7 @@ public class AddCartAutomation {
 		driver.findElement(By.xpath("//a[@class='login-link authentication_popup']")).click();
 		Thread.sleep(5000);	
 		//driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+//jenkins
 		
 		driver.findElement(By.xpath("//input[@class='email required input_authentication']")).sendKeys("priyangacvp@gmail.com");
 		driver.findElement(By.xpath("//input[@class='required input_authentication']")).sendKeys("Priya@007");
